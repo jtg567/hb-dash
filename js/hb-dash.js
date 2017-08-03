@@ -16,7 +16,7 @@ var line = d3.line()
   .y(function (d) { return y(d.score) })
 
 // everything in here will run once when the data are loaded
-d3.tsv('./data/hb-dash-daily.tsv', function (error, data) {
+d3.tsv('./data/hb-dash.tsv', function (error, data) {
   if (error) throw error
 
   console.log(data.length)
