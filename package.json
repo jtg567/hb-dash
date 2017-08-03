@@ -1,0 +1,27 @@
+{
+  "name": "hb-dash",
+  "version": "1.0.0",
+  "description": "d3 dashboard to visualize heartbeat scores",
+  "main": "./js/hb-dash.js",
+  "scripts": {
+    "test": "eslint ./js/hb-dash.js --ext js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtg567/hb-dash.git"
+  },
+  "author": "jgaunt et al.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtg567/hb-dash/issues"
+  },
+  "homepage": "https://github.com/jtg567/hb-dash#readme",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

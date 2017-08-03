@@ -1,0 +1,4 @@
+extends: standard
+globals:
+  d3: true
+  crossfilter: true

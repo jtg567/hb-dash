@@ -1,0 +1,35 @@
+html {
+ position:relative;
+ min-height:100%
+}
+
+html body {
+ background-color:#eee;
+ position:absolute;
+ width:100%;
+ height:100%;
+ margin:0;
+ padding:0;
+ overflow:auto;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale
+}
+
+html body svg {
+ display:block;
+ position:fixed;
+ margin:0;
+ padding:0;
+ z-index:-1
+}
+
+.axis--x path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
