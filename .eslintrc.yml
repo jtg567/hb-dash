@@ -2,3 +2,12 @@ extends: standard
 globals:
   d3: true
   crossfilter: true
+rules:
+  eqeqeq: 0
+  no-extra-semi: 0
+  no-multiple-empty-lines: 1
+  no-unused-expressions: 1
+  no-unused-vars: 1
+  one-var: 1
+  padded-blocks: 1
+  semi: 0
